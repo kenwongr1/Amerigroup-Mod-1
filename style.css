@@ -430,6 +430,22 @@ h1,h2,h3,h4,h5,h6 {
 .tech-item-img img { width: 100%; height: 340px; object-fit: cover; }
 .tech-item-body h2 { font-size: 1.5rem; margin-bottom: 16px; color: var(--ag-blue); }
 .tech-item-body p  { color: var(--ag-muted); }
+.ts-section { background: #edf2fc; padding: 40px 0; }
+.ts-row {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  background: #e8eef8;
+  padding: 28px 32px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  align-items: start;
+}
+.ts-img img { width: 100%; height: auto; border-radius: 6px; display: block; }
+.ts-body h3 { font-weight: 700; font-size: .95rem; margin: 0 0 8px; color: #111; }
+.ts-body h3 ~ h3 { margin-top: 20px; }
+.ts-body p { font-size: .88rem; text-align: justify; line-height: 1.75; color: #444; margin: 0; }
+@media (max-width: 700px) { .ts-row { grid-template-columns: 1fr; } }
 
 /* =============================================
    PROJECTS
