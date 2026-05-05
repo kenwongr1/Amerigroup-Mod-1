@@ -80,7 +80,7 @@ associations of Amerigroup International team members.
   --ag-border:     #dde3ed;
   --ag-radius:     8px;
   --ag-shadow:     0 4px 24px rgba(0,0,0,.10);
-  --ag-hero-overlay: rgba(0,30,70,.52);
+  --ag-hero-overlay: rgba(0,30,70,.28);
   --ag-font-sans:  'Inter', 'Segoe UI', Arial, sans-serif;
   --ag-max-w:      1200px;
   --ag-transition: .3s ease;
@@ -317,9 +317,9 @@ h1,h2,h3,h4,h5,h6 {
   inset: 0;
   background: linear-gradient(
     to top,
-    rgba(0, 20, 55, 0.80) 0%,
-    rgba(0, 20, 55, 0.35) 50%,
-    rgba(0, 20, 55, 0.20) 100%
+    rgba(0, 20, 55, 0.45) 0%,
+    rgba(0, 20, 55, 0.15) 50%,
+    rgba(0, 20, 55, 0.05) 100%
   );
   z-index: 1;
 }
