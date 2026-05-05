@@ -572,7 +572,7 @@ h1,h2,h3,h4,h5,h6 {
    CONTACT FORM CTA
    ============================================= */
 .cta-section {
-  background: linear-gradient(135deg, var(--ag-blue-dark) 0%, var(--ag-blue) 100%);
+  background: linear-gradient(135deg, var(--ag-blue) 0%, #4a90d9 100%);
   color: var(--ag-white);
   padding: 96px 0;
   text-align: center;
