@@ -621,7 +621,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr;
   gap: 48px;
   margin-bottom: 48px;
 }
@@ -642,6 +642,8 @@ h1,h2,h3,h4,h5,h6 {
 .footer-office { margin-bottom: 16px; }
 .footer-office h5 { color: var(--ag-white); font-size: .85rem; font-weight: 600; margin-bottom: 4px; }
 .footer-office p { font-size: .82rem; line-height: 1.5; }
+.footer-map-link { color: rgba(255,255,255,.65); text-decoration: none; display: inline-flex; align-items: flex-start; gap: 4px; transition: color .2s; }
+.footer-map-link:hover { color: var(--ag-white); }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,.1);
   padding-top: 24px;
