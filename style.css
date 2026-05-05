@@ -517,9 +517,11 @@ h1,h2,h3,h4,h5,h6 {
   align-items: center;
   justify-content: center;
   min-height: 90px;
-  transition: box-shadow var(--ag-transition);
+  transition: box-shadow var(--ag-transition), transform .25s ease;
+  position: relative;
+  z-index: 1;
 }
-.partner-logo:hover { box-shadow: var(--ag-shadow); }
+.partner-logo:hover { box-shadow: 0 8px 32px rgba(0,0,0,.18); transform: scale(1.5); z-index: 10; }
 .partner-logo img { max-height: 50px; width: auto; object-fit: contain; filter: grayscale(60%); transition: filter var(--ag-transition); }
 .partner-logo:hover img { filter: grayscale(0%); }
 .partners-disclaimer { margin-top: 40px; font-size: .85rem; color: var(--ag-muted); font-style: italic; }
