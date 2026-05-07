@@ -683,6 +683,7 @@ h1,h2,h3,h4,h5,h6 {
   .tech-item { grid-template-columns: 1fr; gap: 32px; }
   .tech-item.reverse { direction: ltr; }
   .about-split { grid-template-columns: 1fr; gap: 40px; }
+  .about-split-history .about-split-img { order: -1; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 
