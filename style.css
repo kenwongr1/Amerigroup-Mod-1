@@ -705,6 +705,7 @@ h1,h2,h3,h4,h5,h6 {
   .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { justify-content: center; text-align: center; }
   .page-hero { height: 300px; }
+  .page-hero-content h1 { font-size: 1.3rem; }
   .team-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
   .about-split-img img { height: 200px; }
 }
