@@ -727,7 +727,7 @@ h1,h2,h3,h4,h5,h6 {
   .team-card-body { padding: 14px 16px; }
   .footer-rights { display: block; }
   .stats-bar { padding: 20px 0; }
-  .stats-grid { gap: 12px; }
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
   .stat-number { font-size: 1.6rem; }
   .stat-label { font-size: .75rem; }
 }
