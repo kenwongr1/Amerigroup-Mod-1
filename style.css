@@ -715,6 +715,7 @@ h1,h2,h3,h4,h5,h6 {
   .team-card-photo img { width: 180px !important; height: 180px !important; object-fit: cover; object-position: top; border-radius: 50%; }
   .team-grid { gap: 16px; }
   .team-card-body { padding: 14px 16px; }
+  .footer-rights { display: block; }
 }
 
 /* =============================================
