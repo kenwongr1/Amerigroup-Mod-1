@@ -21,7 +21,7 @@
       ctx.clearRect(0, 0, SIZE, SIZE);
       ctx.save();
       ctx.translate(SIZE / 2, SIZE / 2);
-      ctx.rotate(angle);
+      ctx.scale(Math.cos(angle), 1);
       ctx.drawImage(img, -SIZE / 2, -SIZE / 2, SIZE, SIZE);
       ctx.restore();
       link.href = canvas.toDataURL('image/png');
