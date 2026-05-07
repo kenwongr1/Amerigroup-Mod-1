@@ -711,8 +711,8 @@ h1,h2,h3,h4,h5,h6 {
   .about-split-img img { height: 200px; }
   .ts-img img { height: 200px; }
   .team-intro-grid { grid-template-columns: 1fr !important; gap: 16px !important; }
-  .team-card-photo { display: flex; align-items: center; justify-content: center; }
-  .team-card-photo img { width: 260px !important; height: 260px !important; object-fit: cover; object-position: top; border-radius: 50%; }
+  .team-card-photo { display: flex; align-items: center; justify-content: center; height: 200px; }
+  .team-card-photo img { width: 180px !important; height: 180px !important; object-fit: cover; object-position: top; border-radius: 50%; }
 }
 
 /* =============================================
