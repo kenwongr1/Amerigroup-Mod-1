@@ -14,7 +14,6 @@
   const sctx = srcCanvas.getContext('2d');
 
   const img = new Image();
-  img.crossOrigin = 'anonymous';
   img.src = 'Website%20Photos/Logos/Amerigroup%20Blue%E7%81%AB%20%E5%9C%B0%E7%90%83%E4%BB%AA%E6%8A%A0%E5%9B%BE.png';
 
   img.onload = function () {
