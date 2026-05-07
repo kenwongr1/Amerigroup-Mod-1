@@ -427,7 +427,8 @@ h1,h2,h3,h4,h5,h6 {
 .tech-item.reverse { direction: rtl; }
 .tech-item.reverse > * { direction: ltr; }
 .tech-item-img { border-radius: 12px; overflow: hidden; }
-.tech-item-img img { width: 100%; height: 340px; object-fit: cover; }
+.tech-item-img img,
+.tech-item-img video { width: 100%; height: 340px; object-fit: cover; display: block; }
 .tech-item-body h2 { font-size: 1.5rem; margin-bottom: 16px; color: var(--ag-blue); }
 .tech-item-body p  { color: var(--ag-muted); }
 .ts-section { background: #edf2fc; padding: 40px 0; }
